@@ -7,7 +7,8 @@ const AnaSayfa = () => {
   return (
     <div>
       <h1 className='white'>Ana Sayfa</h1>
-      <nav>
+      <div className='page'>
+        <div className='sidebar'>
         <ul className="menu-list">
           <li>
             <Link to="/add-doctor-department">
@@ -30,7 +31,8 @@ const AnaSayfa = () => {
             </Link>
           </li>
         </ul>
-      </nav>
+        </div>
+      </div>
     </div>
   );
 };

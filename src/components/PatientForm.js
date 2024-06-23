@@ -9,7 +9,7 @@ const PatientForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // API call to save patient
+    
   };
 
   return (
@@ -18,7 +18,7 @@ const PatientForm = () => {
       <input type="text" name="İsim" placeholder="İsim" value={patient.name} onChange={handleChange} />
       <input type="text" name="Soyisim" placeholder="Soyisim" value={patient.surname} onChange={handleChange} />
       <input type="text" name="Telefon" placeholder="Telefon" value={patient.phone} onChange={handleChange} />
-      <input type="text" name="Adres" placeholder="Adres" value={patient.address} onChange={handleChange} />
+      <textarea class="form-control"    placeholder="Adres"rows="3"></textarea>
       <button type="submit">Kaydet</button>
     </form>
   );

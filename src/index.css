@@ -56,4 +56,45 @@ button {
   margin-left: 19px;
 }
 
+.page {
+  display: flex;
+  min-height: 100vh;
+}
 
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.main-content {
+  margin-left: 250px; 
+  padding: 20px;
+  flex: 1; 
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-list li a .menu-text {
+  margin-left: 10px;
+}

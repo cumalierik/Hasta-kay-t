@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const DoctorDepartmentForm = () => {
-  const [doctor, setDoctor] = useState({ ad: '', soyad: '', uzmanlık: '' });
+  const [doctor, setDoctor] = useState({ ad:'', soyad: '', uzmanlık: '' });
   const [department, setDepartment] = useState({ name: '', description: '' });
 
   const handleDoctorChange = (e) => {

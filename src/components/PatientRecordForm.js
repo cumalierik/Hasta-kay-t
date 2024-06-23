@@ -5,7 +5,7 @@ const DoktorBilgileri = () => {
   const [doktor, setDoktor] = useState({
     ad: '',
     soyad: '',
-    uzmanlık: ''
+    uzmanlık: '',
   });
 
   const handleChange = (e) => {
