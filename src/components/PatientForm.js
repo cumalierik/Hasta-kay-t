@@ -13,9 +13,7 @@ const PatientForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" name="tckn" placeholder="T.C. Kimlik Numarası" value={patient.tckn} onChange={handleChange} />
-      <input type="text" name="İsim" placeholder="İsim" value={patient.name} onChange={handleChange} />
+    <form onSubmit={handleSubmit}><input type="text" name="İsim" placeholder="İsim" value={patient.name} onChange={handleChange} />
       <input type="text" name="Soyisim" placeholder="Soyisim" value={patient.surname} onChange={handleChange} />
       <input type="text" name="Telefon" placeholder="Telefon" value={patient.phone} onChange={handleChange} />
       <textarea class="form-control"    placeholder="Adres"rows="3"></textarea>

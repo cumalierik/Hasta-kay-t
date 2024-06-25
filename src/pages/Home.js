@@ -26,8 +26,8 @@ const AnaSayfa = () => {
             </Link>
           </li>
           <li>
-            <Link to="/doctor-information">
-              <FontAwesomeIcon icon={faUser} size="lg" /> <span className="menu-text">Doktor Bilgileri</span>
+            <Link to="/TC-Sorgulama">
+              <FontAwesomeIcon icon={faUser} size="lg" /> <span className="menu-text">TC Sorgulama</span>
             </Link>
           </li>
         </ul>
